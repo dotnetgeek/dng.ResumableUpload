@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{CA83FB75-CAE5-4786-A662-5FDFBDB31B29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dng.ResumableUpload", "src\dng.ResumableUpload.csproj", "{44797788-A59D-4847-AE13-27ED11EF39BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44797788-A59D-4847-AE13-27ED11EF39BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44797788-A59D-4847-AE13-27ED11EF39BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44797788-A59D-4847-AE13-27ED11EF39BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44797788-A59D-4847-AE13-27ED11EF39BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44797788-A59D-4847-AE13-27ED11EF39BC} = {CA83FB75-CAE5-4786-A662-5FDFBDB31B29}
+	EndGlobalSection
+EndGlobal
