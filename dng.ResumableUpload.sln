@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dng.ResumableUpload", "src\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{F9ACBA22-5332-4345-BDF0-EB3827C61FEA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{D0348325-C5DD-4DDD-B271-D9B97DE128AA}"
+	ProjectSection(SolutionItems) = preProject
+		build\dng.ResumableUpload.nuspec = build\dng.ResumableUpload.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
