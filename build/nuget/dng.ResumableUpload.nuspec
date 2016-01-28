@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Resumable Upload for ASP.NET and flow.js</description>
     <copyright>Copyright 2016</copyright>
-    <tags>asp.net resumable upload</tags>
+    <tags>asp.net resumable Upload Uploader UploadFile FileUpload</tags>
   </metadata>
   <files>
     <file src="out\build\*.dll" target="lib" />
