@@ -21,3 +21,4 @@ will not take place.
 * Code rework
 * Customizing FxCop rules
 * Creating and publish samples
+* Support CORS
