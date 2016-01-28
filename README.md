@@ -17,6 +17,14 @@ Because of uploading small chunks (mostly smaller then 100MB) the upload-limit o
 will not take place.
 
 
+## How to use
+
+You can install the component via nuget:
+
+    Install-Package dng.ResumableUpload
+    
+Add the IHttpHandler to your web.config.
+    
 ## ToDo
 * Code rework
 * Customizing FxCop rules
