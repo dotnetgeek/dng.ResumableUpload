@@ -12,8 +12,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{D0348325-C5DD-4DDD-B271-D9B97DE128AA}"
 	ProjectSection(SolutionItems) = preProject
 		build.bat = build.bat
-		build.fsx = build.fsx
-		dng.ResumableUpload.nuspec = dng.ResumableUpload.nuspec
+		build\scripts\build.fsx = build\scripts\build.fsx
+		build\nuget\dng.ResumableUpload.nuspec = build\nuget\dng.ResumableUpload.nuspec
 	EndProjectSection
 EndProject
 Global
