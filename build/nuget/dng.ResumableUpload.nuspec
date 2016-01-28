@@ -1,18 +1,19 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
+    <id>dng.ResumableUpload</id>
+    <version>1.0.0.0</version>
     <title>Resumable Upload for ASP.NET</title>
     <authors>Daniel Müller</authors>
     <owners>Daniel Müller</owners>
     <licenseUrl>https://github.com/dotnetgeek/dng.ResumableUpload/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/dotnetgeek/dng.ResumableUpload</projectUrl>
-    <iconUrl>ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>Resumable Upload for ASP.NET and flow.js</description>
     <copyright>Copyright 2016</copyright>
     <tags>asp.net resumable upload</tags>
   </metadata>
+  <files>
+    <file src="out\build\*.dll" target="lib" />
+  </files>
 </package>
