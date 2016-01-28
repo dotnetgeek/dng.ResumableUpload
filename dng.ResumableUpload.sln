@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{D0348325
 	ProjectSection(SolutionItems) = preProject
 		build.bat = build.bat
 		build.fsx = build.fsx
-		build\dng.ResumableUpload.nuspec = build\dng.ResumableUpload.nuspec
+		dng.ResumableUpload.nuspec = dng.ResumableUpload.nuspec
 	EndProjectSection
 EndProject
 Global
