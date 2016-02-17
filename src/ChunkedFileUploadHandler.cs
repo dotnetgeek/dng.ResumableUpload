@@ -130,16 +130,23 @@ namespace dng.ResumableUpload
             context.Response.StatusCode = fileManager.Exists() ? 200 : 204;
         }
 
-        private void HandleUploadedChunk(HttpContext context, ChunkUploadParameter chunkUploadParameter)
+        private void HandleUploadedChunk(
+            HttpContext context, 
+            ChunkUploadParameter chunkUploadParameter)
         {
             var fileManager = new FileChunk(UploadBasePath, chunkUploadParameter);
+
+            if (context.Request.Files.Count == 0)
+            {
+                context.Response.StatusCode = 400;
+                return;
+            }
 
             fileManager.Save(context.Request.Files[0].InputStream);
 
             if (fileManager.CheckIfAllChunksUploaded() && fileManager.MergeAllChunks(TargetPath))
-            {
                 OnUploadSucceeded(chunkUploadParameter);
-            }
+
             context.Response.StatusCode = 201;
         }
 

@@ -118,7 +118,7 @@ namespace dng.ResumableUpload
             {
                 using (Stream stream = new FileStream(chunkFileName, FileMode.Create))
                 {
-                    inputStream.CopyTo(stream); //, _chunkUploadParameter.CurrentChunkSize);
+                    inputStream.CopyTo(stream);
                 }
             }
             catch (Exception exception)
