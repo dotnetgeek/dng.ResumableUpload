@@ -23,7 +23,7 @@ Target "PrepareBuild" (fun _ ->
     CreateDir nugetDir
 )
 
-Target "compile" (fun _ ->
+Target "Compile" (fun _ ->
    !! "./src/**/*.csproj"
     |> MSBuildRelease buildDir "Build"
     |> Log "AppBuild-Output: *"
@@ -49,7 +49,7 @@ Target "CreateNuGetPackage"(fun _ ->
 
 "PrepareBuild"
     ==> "Clean"
-    ==> "compile"
+    ==> "Compile"
     ==> "FxCop"
     ==> "CreateNuGetPackage"
 
