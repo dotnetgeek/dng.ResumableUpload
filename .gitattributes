@@ -1,0 +1,2 @@
+*.cs text=auto diff=csharp
+*.cs linguist-language=csharp
